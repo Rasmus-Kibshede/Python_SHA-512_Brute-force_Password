@@ -1,0 +1,11 @@
+Create docker container from python image
+    docker run -it --rm -v ${PWD}:/docs test/python
+
+Install pypi
+    pip install pypi-install
+
+Install passlib
+    pip install passlib
+
+Run script
+    python hackPasword.py
